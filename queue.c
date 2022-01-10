@@ -31,7 +31,7 @@ void main(void) {
   initQueue(&q);
 
   while (1) {
-    printf("0. 종료 1. 추가 2. 식제 3. 출력 - ");
+    printf("0. 종료 1. 추가 2. 삭제 3. 출력 - ");
     scanf("%d", &menu);
     fflush(stdin);
 
